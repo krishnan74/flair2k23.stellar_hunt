@@ -36,8 +36,8 @@ font-family: 'Inter', sans-serif;
 }
 
 body {
-  background-repeat: no-repeat;
   background-image: url('/public/bg.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -50,4 +50,17 @@ body::before {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   z-index: -1; 
+}
+
+.event_description{
+  font-size: 25px; 
+  padding: 0px 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  margin-bottom: 30px; 
+  text-align: center;
+  color: white;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  
 }
